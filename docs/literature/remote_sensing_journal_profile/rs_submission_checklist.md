@@ -1,0 +1,8 @@
+- Metrics are matched to target type.
+- Continuous FBR is not described as a class map.
+- Thresholded FBR classes are clearly defined before comparison.
+- Class-level metrics are reported for classification/segmentation.
+- Spatial split and transfer validation are explicit.
+- Open-source DEM and GF-7 stereo DEM claims are separated.
+- Figures and tables are cited in text and captions are descriptive.
+- Data availability, author contributions, funding, conflicts, and supplementary materials are prepared.
