@@ -1,0 +1,7 @@
+interface:
+  display_name: "KRD Remote Sensing"
+  short_description: "Karst rocky desertification remote sensing research and Remote Sensing manuscript writing assistant."
+  default_prompt: "Help me design, audit, or write a karst rocky desertification remote sensing manuscript for Remote Sensing."
+  icon: "map"
+  color: "#2E7D32"
+

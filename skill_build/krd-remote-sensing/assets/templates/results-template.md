@@ -1,0 +1,36 @@
+# Results Template
+
+Reminder: Do not invent performance values. Use `[INSERT VERIFIED RESULT]`.
+
+## 3.1 Continuous FBR Inversion
+
+[INSERT FBR MAP DESCRIPTION]
+
+[INSERT R2/RMSE/MAE/BIAS/SLOPE]
+
+## 3.2 Thresholded KRD Grade Mapping
+
+[INSERT THRESHOLDS AND CLASS MAP RESULTS]
+
+## 3.3 Classification and Segmentation Comparison
+
+[INSERT DEEPLABV3+, FCN, U-NET, RF/SVM COMPARISON]
+
+[INSERT OA/KAPPA/PRECISION/RECALL/F1/IOU/MF1/MIOU]
+
+## 3.4 DEM Ablation
+
+[INSERT WITHOUT DEM VS OPEN-SOURCE DEM RESULTS]
+
+## 3.5 Cross-Region Transfer
+
+[INSERT AREA 1 TO AREA 2 RESULTS]
+
+## 3.6 GF-7 Stereo DEM Local Enhancement
+
+[INSERT STUDY AREA 2 LOCAL ENHANCEMENT RESULTS]
+
+## 3.7 Error Analysis
+
+[INSERT CONFUSION, ERROR MAP, UNCERTAINTY, FAILURE CASES]
+
