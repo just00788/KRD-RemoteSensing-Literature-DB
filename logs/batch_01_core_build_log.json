@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-07T16:16:01",
+  "papers_selected": 15,
+  "readers_generated": 15,
+  "cards_generated": 15,
+  "ready": [
+    "KRD0013",
+    "KRD0033",
+    "KRD0035",
+    "KRD0051",
+    "KRD0054",
+    "KRD0057",
+    "KRD0058",
+    "KRD0062",
+    "KRD0064",
+    "KRD0068",
+    "KRD0076"
+  ],
+  "usable_with_caution": [
+    "KRD0091",
+    "KRD0092",
+    "KRD0094",
+    "KRD0095"
+  ],
+  "manual_review": {
+    "KRD0013": [
+      "DOI missing in database"
+    ],
+    "KRD0051": [
+      "DOI missing in database"
+    ],
+    "KRD0058": [
+      "DOI missing in database"
+    ],
+    "KRD0062": [
+      "DOI missing in database"
+    ],
+    "KRD0091": [
+      "title is provisional filename-derived candidate; verify manually",
+      "year missing in database",
+      "DOI missing in database",
+      "readability_status=usable_with_caution"
+    ],
+    "KRD0092": [
+      "title is provisional filename-derived candidate; verify manually",
+      "year missing in database",
+      "DOI missing in database",
+      "readability_status=usable_with_caution"
+    ],
+    "KRD0094": [
+      "title is provisional filename-derived candidate; verify manually",
+      "year missing in database",
+      "DOI missing in database",
+      "readability_status=usable_with_caution"
+    ],
+    "KRD0095": [
+      "title is provisional filename-derived candidate; verify manually",
+      "year missing in database",
+      "DOI missing in database",
+      "readability_status=usable_with_caution"
+    ]
+  },
+  "quality_control_issues": []
+}
