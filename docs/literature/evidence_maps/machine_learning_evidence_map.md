@@ -1,6 +1,6 @@
 # Machine Learning Evidence Map
 
-Generated: 2026-07-07T16:16:01
+Generated: 2026-07-07T16:29:16
 
 ## Supporting papers
 
@@ -15,6 +15,7 @@ Generated: 2026-07-07T16:16:01
 - KRD0064: Fine-Grained Land Use Remote Sensing Mapping in Karst Mountain Areas Using Very High Resolution Images (2025); reader: `docs/literature/readers/batch_01_core/KRD0064_reader.md`
 - KRD0068: RAP-Net: A Region Affinity Propagation-Guided Semantic Segmentation Network for Plateau Karst Landform Delineation (2025); reader: `docs/literature/readers/batch_01_core/KRD0068_reader.md`
 - KRD0076: 顾及Vis-NIR光谱指数时序统计特征的红层荒漠化场景分类 (2025); reader: `docs/literature/readers/batch_01_core/KRD0076_reader.md`
+- KRD0116: 基于改进DeepLabV3+的石漠化地区裸岩信息提取 (unknown); reader: `docs/literature/readers/batch_01_core/KRD0116_reader.md`
 - KRD0091: EN003 Machine learning algorithm for estimating karst rocky desert (unknown); reader: `docs/literature/readers/batch_01_core/KRD0091_reader.md`
 - KRD0092: EN004 Comparing Remote Sensing Methods for Monitoring Karst Rocky (unknown); reader: `docs/literature/readers/batch_01_core/KRD0092_reader.md`
 - KRD0094: EN007 KRD MESMA SVM (unknown); reader: `docs/literature/readers/batch_01_core/KRD0094_reader.md`
@@ -87,6 +88,12 @@ Generated: 2026-07-07T16:16:01
 - p.1: TAN等[17]利用Landsat-8 OLI影像，在像元尺度上基于
 - p.2: 选取桂、滇和贵三地Landsat遥感影像和实地测量数据
 - p.2: 球引擎（google earth engine, GEE）提供已完成大气校正
+
+### KRD0116
+- p.2: Landsat8裸岩和其他土地覆盖类型的光谱特征，通过蓝光、近红外波段差和比，构建归一化裸岩指数
+- p.2: 区Landsat8影像，通过指数法获取的裸岩率， 使 Landsat8影像提取裸岩的精度得到提高，但该方法工作
+- p.12: 基于无人机影像与Landsat8影像关联的重庆市石漠化信息提取与现状评价[D].
+- p.12: of Unmanned Aerial Vehicle Photo and Landsat8 Image[D].
 
 ### KRD0091
 - p.1: intensive interest in the field of global environmental change8.
@@ -181,6 +188,12 @@ Generated: 2026-07-07T16:16:01
 - p.1: 提取精确率为86.15%，召回率为89.31%，F1分数为0.88， F1分数相较于RF和SVM分别提高了4.76%和6.02%，有
 - p.2: 球引擎（google earth engine, GEE）提供已完成大气校正
 
+### KRD0116
+- p.1: DeepLabV3+的裸岩提取方法。该方法首先在编码器中 用 CA-DC-MobileNetV3替 换 DeepLabV3+骨干网
+- p.1: 法在不同场景裸岩提取任务中表现最好，模型参数量约为 DeepLabV3+的 1/13，交并比、 F1分数分别为
+- p.1: 72.46%、84.03%，上述 2个指标相比 于 DeepLabV3+模型分别提高了 4.62和 3.19个百分点，并优于其余
+- p.1: Based on Improved DeepLabV3+
+
 ### KRD0091
 - p.1: In this study, a random forest (RF) based on maximum
 - p.1: classification accuracy indexes were to evaluate the performance of the model.
@@ -273,6 +286,12 @@ Generated: 2026-07-07T16:16:01
 - p.4: 过计算混淆矩阵，得到总体精度（overall accuracy, OA）、
 - p.4: Kappa系数、精确率（Precision）、召回率（Recall）和F1
 - p.4: Table 2 J-M(Jeffries-Matusita) distance between different samples in the preferred indies feature space
+
+### KRD0116
+- p.1: 法在不同场景裸岩提取任务中表现最好，模型参数量约为 DeepLabV3+的 1/13，交并比、 F1分数分别为
+- p.1: Abstract Aiming at the problems of high cost and low precision of traditional bare rock extraction
+- p.1: methods in karst areas, this paper constructs a bare rock extraction method based on improved DeepLabV3+.
+- p.1: feature extraction, which greatly reduces the amount of model parameters.
 
 ### KRD0091
 - p.1: Yali Zhang1, Yichao Tian1,2*, Ying Li3, Donghua Wang4, Jin Tao1, Yongwei Yang1,
@@ -368,6 +387,12 @@ Record only findings explicitly supported in each PDF. This map stores result ev
 - p.1: 提取精确率为86.15%，召回率为89.31%，F1分数为0.88， F1分数相较于RF和SVM分别提高了4.76%和6.02%，有
 - p.1: 效地减少了裸岩错分漏分，提高了红层荒漠化场景分类精度。该研究为荒漠化遥感调查提供了一种简单有效的技术方案，
 
+### KRD0116
+- p.1: 摘 要 针对传统喀斯特地区裸岩提取方法成本高、精度低的问题，文章构建了一种基于改进
+- p.1: 空间金字塔池化模块将不同空洞率的卷积层进行特征融合，提高信息的利用率。研究结果表明：文章方
+- p.1: 法在不同场景裸岩提取任务中表现最好，模型参数量约为 DeepLabV3+的 1/13，交并比、 F1分数分别为
+- p.1: The results show that the method in this paper performs best in the bare rock extraction tasks in
+
 ### KRD0091
 - p.1: At present, mapping KRD with a high accuracy and on a large scale is still
 - p.1: classification accuracy indexes were to evaluate the performance of the model.
@@ -443,6 +468,9 @@ Record only findings explicitly supported in each PDF. This map stores result ev
 ### KRD0076
 - limitation evidence not located
 
+### KRD0116
+- limitation evidence not located
+
 ### KRD0091
 - p.2: To overcome these limitations, scholars have
 - p.8: Owing to the terrain limitations, they can only be carried out in areas with low
@@ -473,6 +501,7 @@ Record only findings explicitly supported in each PDF. This map stores result ev
 - KRD0064: machine-learning classification; Remote Sensing/KRD relevance
 - KRD0068: semantic segmentation baseline/model
 - KRD0076: machine-learning classification
+- KRD0116: 新增核心论文；改进DeepLabV3+；石漠化地区裸岩信息提取；semantic segmentation support
 - KRD0091: KRD classification/information extraction; machine-learning classification
 - KRD0092: KRD classification/information extraction; Remote Sensing/KRD relevance
 - KRD0094: KRD classification/information extraction; LSMM/SMA/MESMA; machine-learning classification

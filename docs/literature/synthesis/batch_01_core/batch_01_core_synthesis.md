@@ -1,6 +1,6 @@
 # Batch 01 Core Paper Synthesis
 
-Generated: 2026-07-07T16:16:01
+Generated: 2026-07-07T16:29:16
 
 ## 1. Papers Read
 
@@ -17,6 +17,7 @@ Generated: 2026-07-07T16:16:01
 | KRD0064 | Fine-Grained Land Use Remote Sensing Mapping in Karst Mountain Areas Using Very High Resolution Images | 2025 | Remote Sensing | ready | yes | yes | no |
 | KRD0068 | RAP-Net: A Region Affinity Propagation-Guided Semantic Segmentation Network for Plateau Karst Landform Delineation | 2025 | Remote Sensing | ready | yes | yes | no |
 | KRD0076 | 顾及Vis-NIR光谱指数时序统计特征的红层荒漠化场景分类 | 2025 | 农业工程学报 | ready | yes | yes | no |
+| KRD0116 | 基于改进DeepLabV3+的石漠化地区裸岩信息提取 | unknown | unknown | ready | yes | yes | yes |
 | KRD0091 | EN003 Machine learning algorithm for estimating karst rocky desert | unknown | unknown | usable_with_caution | yes | yes | yes |
 | KRD0092 | EN004 Comparing Remote Sensing Methods for Monitoring Karst Rocky | unknown | unknown | usable_with_caution | yes | yes | yes |
 | KRD0094 | EN007 KRD MESMA SVM | unknown | unknown | usable_with_caution | yes | yes | yes |
@@ -24,15 +25,15 @@ Generated: 2026-07-07T16:16:01
 
 ## 2. Main Research Themes
 
-- rocky desertification classification: 10 papers (KRD0013, KRD0033, KRD0035, KRD0051, KRD0054, KRD0057, KRD0058, KRD0062, KRD0092, KRD0095).
-- FBR/fBR/bare-rock fraction: 12 papers (KRD0013, KRD0033, KRD0035, KRD0051, KRD0054, KRD0058, KRD0062, KRD0068, KRD0076, KRD0091, KRD0092, KRD0094).
-- LSMM/SMA/MESMA: 8 papers (KRD0035, KRD0051, KRD0054, KRD0058, KRD0062, KRD0091, KRD0092, KRD0094).
-- machine learning: 15 papers (KRD0013, KRD0033, KRD0035, KRD0051, KRD0054, KRD0057, KRD0058, KRD0062, KRD0064, KRD0068, KRD0076, KRD0091, KRD0092, KRD0094, KRD0095).
-- semantic segmentation: 3 papers (KRD0051, KRD0064, KRD0068).
+- rocky desertification classification: 11 papers (KRD0013, KRD0033, KRD0035, KRD0051, KRD0054, KRD0057, KRD0058, KRD0062, KRD0116, KRD0092, KRD0095).
+- FBR/fBR/bare-rock fraction: 13 papers (KRD0013, KRD0033, KRD0035, KRD0051, KRD0054, KRD0058, KRD0062, KRD0068, KRD0076, KRD0116, KRD0091, KRD0092, KRD0094).
+- LSMM/SMA/MESMA: 9 papers (KRD0035, KRD0051, KRD0054, KRD0058, KRD0062, KRD0116, KRD0091, KRD0092, KRD0094).
+- machine learning: 16 papers (KRD0013, KRD0033, KRD0035, KRD0051, KRD0054, KRD0057, KRD0058, KRD0062, KRD0064, KRD0068, KRD0076, KRD0116, KRD0091, KRD0092, KRD0094, KRD0095).
+- semantic segmentation: 4 papers (KRD0051, KRD0064, KRD0068, KRD0116).
 - DEM/topographic factors: 14 papers (KRD0013, KRD0033, KRD0035, KRD0051, KRD0054, KRD0057, KRD0062, KRD0064, KRD0068, KRD0076, KRD0091, KRD0092, KRD0094, KRD0095).
-- multi-source remote sensing: 14 papers (KRD0033, KRD0035, KRD0051, KRD0054, KRD0057, KRD0058, KRD0062, KRD0064, KRD0068, KRD0076, KRD0091, KRD0092, KRD0094, KRD0095).
+- multi-source remote sensing: 15 papers (KRD0033, KRD0035, KRD0051, KRD0054, KRD0057, KRD0058, KRD0062, KRD0064, KRD0068, KRD0076, KRD0116, KRD0091, KRD0092, KRD0094, KRD0095).
 - cross-region validation: 8 papers (KRD0035, KRD0054, KRD0057, KRD0062, KRD0064, KRD0068, KRD0091, KRD0094).
-- Remote Sensing writing style: 10 papers (KRD0013, KRD0033, KRD0051, KRD0054, KRD0062, KRD0064, KRD0068, KRD0092, KRD0094, KRD0095).
+- Remote Sensing writing style: 11 papers (KRD0013, KRD0033, KRD0051, KRD0054, KRD0062, KRD0064, KRD0068, KRD0116, KRD0092, KRD0094, KRD0095).
 
 ## 3. Evidence for Our Scientific Framework
 

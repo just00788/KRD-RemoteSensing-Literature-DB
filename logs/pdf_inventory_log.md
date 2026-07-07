@@ -1,15 +1,15 @@
 # PDF Inventory Log
 
-Generated: 2026-07-07T15:41:58
+Generated: 2026-07-07T16:28:54
 PDF root: `docs/literature/pdfs`
-Total PDFs: 73
-Total size MiB: 533.197
+Total PDFs: 74
+Total size MiB: 534.736
 Duplicate PDF file rows: 33
 Duplicate SHA256 groups: 15
 
 ## Source collections
 
-- package_2000_2026: 38
+- package_2000_2026: 39
 - package_2021_2026: 24
 - remote_sensing_only: 11
 

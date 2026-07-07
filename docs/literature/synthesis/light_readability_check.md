@@ -304,3 +304,24 @@ Priority was given to KRD classification/information extraction, FBR/bare-rock f
 - Use Nature Reader Skill: `yes`
 - Reason for priority: KRD classification/information extraction; Remote Sensing/KRD relevance
 - Notes: sampled_pages=first2+middle2+last2_or_available | page_count=12 | first_two_chars=10981 | sampled_chars=24206 | abstract=False | methods=True | results=True | figures_tables=True | references=False | chinese_mojibake=False | likely_scanned=False | title_missing_in_database
+
+## Supplemental checks
+
+Generated: 2026-07-07T16:30:17
+
+### KRD0116: 基于改进DeepLabV3+的石漠化地区裸岩信息提取
+
+- PDF exists: yes
+- PDF path: `docs/literature/pdfs/package_2000_2026/基于改进DeepLabV3+的石漠化地区裸岩信息提取_吴永俊.pdf`
+- First 2 pages text extractable: yes (4437 chars)
+- Abstract/摘要 found in first 2 pages: yes
+- Methods/方法 signal found in sampled pages: yes
+- Results/结果 signal found in sampled pages: yes
+- Figures/Tables signal found in sampled pages: yes
+- References/参考文献 signal found in sampled pages: yes
+- Chinese mojibake detected: no
+- Likely scanned PDF: no
+- Readability status: `ready`
+- Use Nature Reader Skill: `yes`
+- Reason for priority: 新增核心论文；改进DeepLabV3+；石漠化地区裸岩信息提取。
+- Notes: supplemental_light_check=true | page_count=13 | first_two_chars=4437 | sampled_chars=13580 | abstract=True | methods=True | results=True | figures_tables=True | references=True | likely_scanned=False

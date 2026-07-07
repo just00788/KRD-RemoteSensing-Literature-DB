@@ -1,12 +1,13 @@
 # Semantic Segmentation Evidence Map
 
-Generated: 2026-07-07T16:16:01
+Generated: 2026-07-07T16:29:16
 
 ## Supporting papers
 
 - KRD0051: A Rocky Desertification Land Extraction Method Based on Spectral Texture Scattering Terrain Feature Set and Multiscale Segmentation (2024); reader: `docs/literature/readers/batch_01_core/KRD0051_reader.md`
 - KRD0064: Fine-Grained Land Use Remote Sensing Mapping in Karst Mountain Areas Using Very High Resolution Images (2025); reader: `docs/literature/readers/batch_01_core/KRD0064_reader.md`
 - KRD0068: RAP-Net: A Region Affinity Propagation-Guided Semantic Segmentation Network for Plateau Karst Landform Delineation (2025); reader: `docs/literature/readers/batch_01_core/KRD0068_reader.md`
+- KRD0116: 基于改进DeepLabV3+的石漠化地区裸岩信息提取 (unknown); reader: `docs/literature/readers/batch_01_core/KRD0116_reader.md`
 
 ## Data used
 
@@ -27,6 +28,12 @@ Generated: 2026-07-07T16:16:01
 - p.1: 1 Department of Surveying & Mapping Engineering, College of Earth and Planetary Sciences, Chengdu
 - p.1: 2 Sichuan Coalfield 141 Construction Investment Co., Ltd., Deyang 618029, China
 - p.1: thereby demonstrating significant improvements in boundary delineation and structural
+
+### KRD0116
+- p.2: Landsat8裸岩和其他土地覆盖类型的光谱特征，通过蓝光、近红外波段差和比，构建归一化裸岩指数
+- p.2: 区Landsat8影像，通过指数法获取的裸岩率， 使 Landsat8影像提取裸岩的精度得到提高，但该方法工作
+- p.12: 基于无人机影像与Landsat8影像关联的重庆市石漠化信息提取与现状评价[D].
+- p.12: of Unmanned Aerial Vehicle Photo and Landsat8 Image[D].
 
 
 ## Methods used
@@ -49,6 +56,12 @@ Generated: 2026-07-07T16:16:01
 - p.1: Keywords: karst landforms; Qinghai–Tibet Plateau; semantic segmentation; affinity propagation
 - p.2: used K-means clustering and random forest classifiers to
 
+### KRD0116
+- p.1: DeepLabV3+的裸岩提取方法。该方法首先在编码器中 用 CA-DC-MobileNetV3替 换 DeepLabV3+骨干网
+- p.1: 法在不同场景裸岩提取任务中表现最好，模型参数量约为 DeepLabV3+的 1/13，交并比、 F1分数分别为
+- p.1: 72.46%、84.03%，上述 2个指标相比 于 DeepLabV3+模型分别提高了 4.62和 3.19个百分点，并优于其余
+- p.1: Based on Improved DeepLabV3+
+
 
 ## Metrics
 
@@ -69,6 +82,12 @@ Generated: 2026-07-07T16:16:01
 - p.1: RAP-Net: A Region Affinity Propagation-Guided Semantic
 - p.1: 1 Department of Surveying & Mapping Engineering, College of Earth and Planetary Sciences, Chengdu
 - p.1: 2 Sichuan Coalfield 141 Construction Investment Co., Ltd., Deyang 618029, China
+
+### KRD0116
+- p.1: 法在不同场景裸岩提取任务中表现最好，模型参数量约为 DeepLabV3+的 1/13，交并比、 F1分数分别为
+- p.1: Abstract Aiming at the problems of high cost and low precision of traditional bare rock extraction
+- p.1: methods in karst areas, this paper constructs a bare rock extraction method based on improved DeepLabV3+.
+- p.1: feature extraction, which greatly reduces the amount of model parameters.
 
 
 ## Main findings
@@ -92,6 +111,12 @@ Record only findings explicitly supported in each PDF. This map stores result ev
 - p.1: Compared with traditional manual interpretation, these machine learning approaches have significantly improved mapping efficiency
 - p.1: and reduced human workload.
 
+### KRD0116
+- p.1: 摘 要 针对传统喀斯特地区裸岩提取方法成本高、精度低的问题，文章构建了一种基于改进
+- p.1: 空间金字塔池化模块将不同空洞率的卷积层进行特征融合，提高信息的利用率。研究结果表明：文章方
+- p.1: 法在不同场景裸岩提取任务中表现最好，模型参数量约为 DeepLabV3+的 1/13，交并比、 F1分数分别为
+- p.1: The results show that the method in this paper performs best in the bare rock extraction tasks in
+
 
 ## Limitations
 
@@ -110,12 +135,16 @@ Record only findings explicitly supported in each PDF. This map stores result ev
 - p.4: To address this limitation, we propose an
 - p.12: Context Attention Branch by compensating for its limitations in modeling local patterns.
 
+### KRD0116
+- limitation evidence not located
+
 
 ## Relevance to our manuscript
 
 - KRD0051: KRD classification/information extraction; semantic segmentation baseline/model; DEM/topographic factors
 - KRD0064: machine-learning classification; Remote Sensing/KRD relevance
 - KRD0068: semantic segmentation baseline/model
+- KRD0116: 新增核心论文；改进DeepLabV3+；石漠化地区裸岩信息提取；semantic segmentation support
 
 ## Possible sentences or writing patterns
 
