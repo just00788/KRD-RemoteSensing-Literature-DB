@@ -1,0 +1,21 @@
+﻿id,lang,year,title,reason,verify_in
+CAND001,English/Chinese,2004,Long-term unreasonable land use and exposed bedrock in karst rocky desertification areas (Wang et al. 2004),Found as cited background in Frontiers 2022; likely foundational KRD process paper,CNKI/WoS/Google Scholar
+CAND002,English/Chinese,2007,Karst rocky desertification and socio-economic constraints in Southwest China (Wang and Li 2007),Cited by Frontiers 2022 as foundational KRD source,CNKI/WoS/Google Scholar
+CAND003,English/Chinese,2013,"Use of NDVI, KRDSI and LCA for rocky desertification extraction (Xiong et al. 2013)",Cited in Frontiers 2022 PDF as early index-based KRD extraction,CNKI/WoS/Google Scholar
+CAND004,English/Chinese,2015,Decision tree and fuzzy maximum likelihood classification for KRD (Li and Wu 2015),Cited by Scientific Reports 2022 as KRD classification baseline,CNKI/WoS/Google Scholar
+CAND005,English/Chinese,2015,Discussion on classification and grading of karst rocky desertification in Guizhou (Zhang and Wang 2015),Relevant grading standard; appears in user manuscript references,CNKI/Wanfang
+CAND006,Chinese,2010,Extraction of rocky desertification information from remote sensing data (Hu et al. 2010),Relevant grading/extraction standard; appears in user manuscript references,CNKI/Wanfang
+CAND007,English/Chinese,2017,Kernel fully constrained least squares for hyperspectral image classification/unmixing (Liu et al. 2017),Method reference for FCLS/LSMM; not KRD-specific,IEEE/Google Scholar
+CAND008,English,2016,Linear spatial-spectral mixture model,Method reference for LSMM; not KRD-specific,IEEE TGRS
+CAND009,English,2019,Spectral variability in hyperspectral unmixing: recent advances and future trends,Useful for LSMM discussion; not KRD-specific,IEEE Signal Processing Magazine
+CAND010,English,2015,Fully Convolutional Networks for Semantic Segmentation,Baseline model reference for FCN comparison; not KRD-specific,CVPR
+CAND011,English,2018,Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation / DeepLabV3+,Core DeepLabV3+ method reference; not KRD-specific,ECCV/Google Scholar
+CAND012,English,2015,U-Net: Convolutional Networks for Biomedical Image Segmentation,U-Net baseline method reference; not KRD-specific,MICCAI/Google Scholar
+CAND013,Chinese,2000-2026,CNKI query bucket: 石漠化 + 遥感 + 信息提取,Large number of Chinese papers not reliably exposed to public web search,CNKI advanced search
+CAND014,Chinese,2000-2026,CNKI query bucket: 石漠化 + 裸岩率/基岩裸露率 + 遥感,Directly relevant to FBR/bare-rock fraction,CNKI/Wanfang
+CAND015,Chinese,2000-2026,CNKI query bucket: 石漠化 + 随机森林/支持向量机/机器学习,Relevant ML classification papers,CNKI/Wanfang
+CAND016,Chinese,2000-2026,CNKI query bucket: 石漠化 + 深度学习/语义分割/DeepLabV3+/U-Net,Relevant DL segmentation papers; likely few but important,CNKI/Wanfang
+CAND017,Chinese,2000-2026,CNKI query bucket: 石漠化 + Google Earth Engine/GEE + 时空演变,Long-term monitoring and data processing method papers,CNKI/Wanfang
+CAND018,English,2000-2026,WoS/Scopus query bucket: TOPIC=(karst rocky desertification) AND (classification OR extraction OR mapping OR monitoring),Needed for rigorous exhaustive capture,Web of Science/Scopus
+CAND019,English,2000-2026,"Google Scholar query bucket: ""rocky desertification"" ""remote sensing"" ""classification""","Captures conference papers, theses and non-indexed journal papers",Google Scholar
+CAND020,English,2000-2026,"Google Scholar query bucket: ""bare rock fraction"" ""karst"" ""remote sensing""",Covers fBR/FBR/exposed bedrock fraction studies,Google Scholar
