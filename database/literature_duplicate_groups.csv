@@ -1,0 +1,11 @@
+﻿duplicate_group_id,canonical_paper_id,duplicate_paper_id,duplicate_title,duplicate_year,duplicate_doi,duplicate_source,duplicate_reason,merge_confidence,keep_or_merge,notes
+DUP0001,KRD0016,KRD0016,Is Forest Restoration in the Southwest China Karst Promoted Mainly by Climate Change or Human-Induced Factors?,2014,10.3390/rs6109895,background,canonical_record,1.00,keep,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0001,KRD0016,KRD0112,,,,remote_sensing_only,pdf_filename_title_high_similarity,0.95,needs_manual_confirmation,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0002,KRD0023,KRD0023,Quantitative Estimation of Carbonate Rock Fraction in Karst Regions Based on Spectral Feature Analysis,2016,10.3390/rs8010068,closely_related,canonical_record,1.00,keep,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0002,KRD0023,KRD0113,,,,remote_sensing_only,pdf_filename_title_high_similarity,0.95,needs_manual_confirmation,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0003,KRD0058,KRD0058,基于多源数据的石漠化地区裸岩信息提取和景观格局分析,2024,,万方学位论文,canonical_record,1.00,keep,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0003,KRD0058,KRD0059,基于多源数据的石漠化地区裸岩信息提取和景观格局分析（百度学术条目）,2024,,百度学术,normalized_title_high_similarity,0.95,merge,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0004,KRD0061,KRD0061,基于改进DeepLabV3+的石漠化地区裸岩信息提取,2024,10.3969/j.issn.1009-8518.2024.01.011,航天返回与遥感,canonical_record,1.00,keep,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0004,KRD0061,KRD0116,基于改进DeepLabV3+的石漠化地区裸岩信息提取,,,package_2000_2026,normalized_title_exact; normalized_title_high_similarity,0.96,merge,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0005,KRD0085,KRD0085,,,,package_2000_2026,canonical_record,1.00,keep,Original record retained in literature_database_cleaned.csv; canonical view only.
+DUP0005,KRD0085,KRD0108,,,,package_2021_2026,pdf_filename_title_high_similarity,1.00,needs_manual_confirmation,Original record retained in literature_database_cleaned.csv; canonical view only.
