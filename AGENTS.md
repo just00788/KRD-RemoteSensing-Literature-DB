@@ -44,3 +44,20 @@ Each PDF should eventually be extracted into a structured paper card with:
 - Limitations.
 - Relevance to the Remote Sensing manuscript.
 - Whether it supports FBR, LSMM/MESMA, machine learning, semantic segmentation, DEM, GEE, or cross-region transfer.
+
+## krd-remote-sensing Skill Deployment
+
+- The editable Skill source is stored in `skill_build/krd-remote-sensing/`.
+- The final installable package is stored in `skill_build/dist/skill.zip`.
+- Codex should not directly modify `skill_build/dist/skill.zip`.
+- For rocky desertification remote sensing, Remote Sensing writing, FBR/LSMM, DEM, DeepLabV3+, or Codex experiment tasks, first read `skill_build/krd-remote-sensing/SKILL.md` and then load only the relevant files under `skill_build/krd-remote-sensing/references/`.
+- FBR is a continuous bare-rock fraction or exposed-bedrock fraction variable.
+- LSMM/SMA/MESMA output continuous variables.
+- Thresholded FBR can be compared with classification models; continuous FBR metrics must not be mixed with OA/Kappa/F1/IoU.
+- DeepLabV3+ is the main model.
+- FCN and U-Net are baselines.
+- Open-source DEM is used for Area 1 to Area 2 transfer.
+- GF-7 stereo-derived DEM is only for Study Area 2 local enhancement.
+- Do not claim that GF-7 stereo DEM improves Area 1 to Area 2 transferability.
+- Use spatial block split and avoid random patch leakage.
+- Do not fabricate experiment results, literature conclusions, citations, DOI values, authors, or journals.
