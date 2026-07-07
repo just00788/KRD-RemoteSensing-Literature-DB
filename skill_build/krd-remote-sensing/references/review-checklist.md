@@ -14,6 +14,8 @@ Use this reference when auditing a draft, diagnosing reviewer-risk, or preparing
 - DeepLabV3+, FCN, and U-Net roles are unclear.
 - Results contain unsupported numerical claims.
 - Literature claims lack citation or verification.
+- Quick-reading notes are treated as full paper-card evidence.
+- PDF-only records with weak metadata are cited without checking DOI, authors, journal/source, and year.
 
 ## Scientific Review Questions
 
@@ -34,3 +36,10 @@ Use this reference when auditing a draft, diagnosing reviewer-risk, or preparing
 - Are figure/table captions informative?
 - Are claims restrained?
 
+## Batch 03 Review Checks
+
+- Are LSMM/SMA/MESMA claims still worded cautiously?
+- Are feature-space, vegetation-index, object-oriented extraction, and semantic segmentation kept as separate method families?
+- Are DeepLabV3+ claims limited to rationale unless supported by the user's experiment results?
+- Are Chinese literature metadata and OCR-corrupted titles marked for manual verification?
+- Are GF/Gaofen claims restrained relative to Sentinel/Landsat evidence?

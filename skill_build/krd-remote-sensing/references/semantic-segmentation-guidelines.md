@@ -52,4 +52,6 @@ Separate:
 - Avoid random patch splits that leak spatial texture.
 - Do not compare segmentation IoU directly with continuous FBR RMSE.
 - Use visual examples only as support; metrics and independent validation carry the claim.
-
+- Batch 03 added Chinese DeepLabV3+ bare-rock extraction and object-oriented extraction signals, which strengthens the rationale for semantic-segmentation coverage.
+- Do not treat PDF-only or quick-read DeepLabV3+ metadata as verified architecture or performance evidence until the full methods and results are manually checked.
+- Manuscript claims about DeepLabV3+, FCN, U-Net, or any improved segmentation architecture must be supported by the user's own experiments and reported metrics.

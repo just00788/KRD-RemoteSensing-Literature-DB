@@ -36,4 +36,6 @@ If the manuscript uses NRD/LRD/MRD/SRD or similar categories, state the threshol
 - `caution`: Endmember selection and shadow/topography effects can introduce uncertainty.
 - `needs verification`: Any numeric FBR thresholds must be checked against the user's actual classification standard.
 - Do not invent FBR validation values.
-
+- Batch 03 quick reading strengthened FBR-adjacent coverage through feature-space, red-edge, vegetation-index, object-oriented, and bare-rock information extraction papers, but it did not fully close the LSMM/SMA/MESMA evidence gap.
+- Do not treat feature-space indices, vegetation-index enhancement, or object-oriented KRD extraction as LSMM/SMA/MESMA evidence unless the method explicitly performs spectral mixture analysis.
+- Use Batch 03 notes only as method-taxonomy and caution support; do not copy numerical results or assert verified thresholds from quick readers.

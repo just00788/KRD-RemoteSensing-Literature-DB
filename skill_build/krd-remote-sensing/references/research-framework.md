@@ -39,3 +39,9 @@ The manuscript should separate four linked layers:
 - Do not report classification accuracy for a continuous fraction result.
 - Do not invent experiment results or literature claims.
 
+## Batch 03 Integration Notes
+
+- Batch 03 improves the framework by adding cautious Chinese-method coverage, including object-oriented extraction, Sentinel-2 time-series degree identification, feature-space/red-edge monitoring, vegetation-index enhancement, and DeepLabV3+ bare-rock extraction.
+- Keep Batch 03 evidence at the level of framework support until full readers or manual checks verify metadata, methods, and numerical results.
+- DeepLabV3+ literature can support the need for semantic segmentation, but the manuscript's claims must be driven by the user's own DeepLabV3+, FCN, and U-Net experiments.
+- LSMM/SMA/MESMA and GF/Gaofen claims remain cautious design motivations rather than saturated literature conclusions.
